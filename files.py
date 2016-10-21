@@ -1,8 +1,8 @@
-# Writing File.
+# Escrita em Arquivo
 write = open("example.txt", "w")
 write.write("Testing")
 write.close()
 
-# Reading File.
+# Leitura em Arquivo
 reading = open('example.txt', 'r')
 print(reading.read())
